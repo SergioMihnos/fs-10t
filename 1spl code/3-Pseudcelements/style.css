@@ -1,0 +1,13 @@
+p::selection{
+    background: orangered;
+    color: blueviolet;
+}
+
+p::first-letter{
+    font-size: 80px;
+    line-height: 0;
+}
+
+P::first-line{
+    color: blue;
+}

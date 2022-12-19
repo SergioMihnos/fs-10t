@@ -1,0 +1,29 @@
+@keyframes go-right{
+    from {
+      left: 0px;
+    }
+     to{
+      left: calc(100% - 200px);
+    } 
+  }
+    button{
+      position: relative;
+  transition-property: background;
+  transition-duration: 5s;
+  animation: go-right 3s infinite alternate;
+
+  transition: background 5s, color 2s;
+
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1b4bc2;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+button:hover{
+    /* background: #103184 */
+   background-color: red; 
+}

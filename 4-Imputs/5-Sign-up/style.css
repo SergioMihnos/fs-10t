@@ -1,0 +1,151 @@
+.form{
+    left: calc(50% - 200px);
+    top: calc(50% - 200px);
+    position: absolute;
+    padding: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+}
+
+.form__title{
+    font-size: 28px;
+    font-weight: 400;
+    color: #434343;
+}
+
+.form__title::after{
+    left: 0;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #3CB878;
+}
+
+input{
+    margin: 7.5px 0;
+    padding: 16px 20px;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    font-size: 14px;
+    color: #BEBEBE;
+}
+
+input:focus{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.form__submit{
+    background: #3CB878;
+}
+
+.facebook{
+    background-color: #305DB8;
+}
+
+.google{
+    background: #DF4A32;
+}
+
+.form__social{
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+header{
+    padding: 0 80px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header__action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.line{
+    width: 1px;
+    height: 20px;
+    background: #FFF;
+    opacity: 0.5;
+}
+
+.header__title{
+    font-size: 20px;
+}
+
+.header__title:hover{
+    color: #3CB878;
+}
+
+.header__login span:hover{
+    color: #3CB878;
+}
+
+.header__icon-wrapper{
+    display: flex;
+    gap: 25px;
+}
+
+.header__icon{
+    width: 25px;
+    height: 25px;
+}
+
+.header__icon.calendar{
+    background: url('./icons/calendar.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.header__icon.calendar:hover{
+    background: url('./icons/calendar-hover.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.header__icon.email{
+    background: url('./icons/envelope.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.header__icon.email:hover{
+    background: url('./icons/envelope-hover.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.header__icon.compass{
+    background: url('./icons/compass.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.header__icon.compass:hover{
+    background: url('./icons/compass-hover.svg.svg');
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    background: url('./background.png.png');
+    background-size: cover;
+}

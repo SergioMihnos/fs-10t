@@ -1,0 +1,92 @@
+.container{
+    margin: 60px 100px 30px 100px;
+}
+
+.title{
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.title span{
+    color: #4BCAFF;
+}
+
+.top-menu{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #35444F;
+}
+
+.top-menu a{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding: 25px 50px;
+    border-left: 1px solid white;
+}
+
+.top-menu a:hover {
+    background-color: #222F3A;
+}
+
+.main{
+    display: flex;
+    gap: 52px;
+}
+
+.side-menu{
+    min-width: 344px;
+    max-height: 380px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.side-menu a{
+    padding: 26px 44px;
+    text-decoration: none;
+    color: #495863;
+    font-size: 24px;
+}
+
+.side-menu a:hover{
+    padding: 26px 54px;
+    background-color: #DBDBDB;
+    color: #000000;
+}
+
+.right-block{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.right-block img{
+    padding: 75px 300px;
+    border: 1px solid black;
+}
+
+.right-block-text{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+body{
+    align-items: center;
+}
+.top-menu{
+    background-color: #63696E;
+    padding: 69px 1280px;
+    color: #0C1927;
+    padding: 61px 8px;
+    border: none;
+    text-transform: uppercase;
+    display: flex;
+    font-style: normal;
+    margin: 54px;
+}
